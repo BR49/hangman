@@ -1,0 +1,13 @@
+# Fruit Guessing Game
+
+This is a simple Python program that demonstrates user input validation and random selection from a list. It asks the user to enter a single letter, validates the input, and then randomly selects a fruit from a list of favorite fruits. If the input is valid, it prints "Good guess!" along with the randomly selected fruit. If the input is not valid, it prints "Oops! That is not a valid input."
+
+## Usage
+
+1. Clone the repository or download the `milestone_2.py` file.
+2. Make sure you have Python installed on your system.
+3. Open a terminal or command prompt and navigate to the directory where `milestone_2.py` is located.
+4. Run the program by typing `python milestone_2.py` and pressing Enter.
+5. Follow the on-screen instructions to enter a single letter.
+
+

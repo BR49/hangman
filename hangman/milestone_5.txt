@@ -1,0 +1,24 @@
+# Hangman Game with User Input Validation
+
+This Python program implements a classic Hangman game where the player guesses letters to uncover a secret word. The program provides user input validation, feedback on correct and incorrect guesses, and keeps track of the player's remaining lives.
+
+## Usage
+
+1. Clone the repository or download the `milestone_5.py` file.
+2. Make sure you have Python installed on your system.
+3. Open a terminal or command prompt and navigate to the directory where `milestone_5.py` is located.
+4. Run the program by typing `python milestone_5.py` and pressing Enter.
+5. Follow the on-screen instructions to guess letters and uncover the secret word.
+
+## Code Organization
+
+The code is organized into a class called `Hangman`, which contains methods to handle various aspects of the game:
+
+- The `__init__` method initializes the game attributes, including the secret word, word to be guessed, remaining lives, list of guessed letters, and more.
+- The `check_guess` method checks if a guessed letter is in the secret word, updates the word_guessed attribute, and handles incorrect guesses by reducing the remaining lives.
+- The `ask_for_input` method handles user input, validation, and calls the `check_guess` method.
+
+The `play_game` function runs the Hangman game, continuously asking for input until the game is won or lost.
+
+## Example
+

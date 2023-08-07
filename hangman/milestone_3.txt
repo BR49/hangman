@@ -1,0 +1,23 @@
+# Fruit Guessing Game with User Input Validation
+
+This Python program implements a simple fruit guessing game with user input validation. The program asks the user to guess a letter and validates the input to ensure it is a single alphabetical character. It then checks if the guessed letter is in a randomly chosen secret word (representing a fruit), providing appropriate feedback to the user.
+
+## Usage
+
+1. Clone the repository or download the `milestone_3.py` file.
+2. Make sure you have Python installed on your system.
+3. Open a terminal or command prompt and navigate to the directory where `milestone_3.py` is located.
+4. Run the program by typing `python milestone_3.py` and pressing Enter.
+5. Follow the on-screen instructions to guess a letter. The program will inform you whether the guessed letter is in the secret word (fruit) or not.
+
+## Code Organization
+
+The code is organized into functions for improved readability and maintainability:
+
+- The `check_guess` function takes a guessed letter as an argument and checks if it is in the secret word.
+- The `ask_for_input` function handles the user input, validation, and calls the `check_guess` function.
+
+Both functions are used within the main script to create a streamlined user experience.
+
+## Example
+
